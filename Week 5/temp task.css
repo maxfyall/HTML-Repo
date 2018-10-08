@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=K2D|Merriweather:900');
+
+h1{
+  font-family: 'Merriweather', serif;
+}
+
+h2{
+  font-family: 'Merriweather', serif;
+}
+
+p{
+  font-family: 'K2D', sans-serif;
+}
+
+header img{
+  width: 50px;
+  float: left;
+}
+
+header h1{
+  padding-left:120px
+}
+
+nav ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  background-color:#333;
+  overflow:hidden;
+}
+
+nav li {
+  float:left;
+}
+
+nav li a {
+  display:block;
+  color:white;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+
+nav li a:hover {
+  background-color:#111111:
+}
+
+#mainContent{
+  background-color: #eeeeee;
+  width: 70%;
+  float: left;
+  height: 400px;
+}
+
+#sideContent{
+background-color: #dddddd;
+width: 30%;
+float: right;
+height: 400px;
+}
+
+.contentBox{
+  padding: 0 20px 0 20px;
+}
+
+#footerSection1{
+  width: 30%;
+  background-color: #cccccc;
+  float: left;
+}
+
+#footerSection2{
+  width: 40%;
+  background-color: #bbbbbb;
+  float: left;
+}
+
+#footerSection3{
+  width: 30%;
+  background-color: #aaaaaa;
+  float: left;
+}
+
+body{
+  max-width: 960px;
+  margin: 0 auto;
+}
