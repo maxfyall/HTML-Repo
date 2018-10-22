@@ -1,9 +1,9 @@
-header h1{
+header h1 {
   background-color: grey;
   font-size: 50px
 }
 
-nav ul{
+nav ul {
   list-style-type:none;
   margin:0;
   padding:0;
@@ -23,6 +23,14 @@ nav li a {
   text-decoration:none;
 }
 
-footer img{
+footer img {
   width: 200px;
+}
+
+main p {
+  padding-top: 25px;
+}
+
+main img{
+  padding-top: 25px;
 }
